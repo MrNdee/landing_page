@@ -1,0 +1,19 @@
+{
+  "name": "landing_page",
+  "version": "1.0.0",
+  "description": "a repository containing a template of a landing page",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./main/output.css --build",
+    "watch": "tailwindcss -i ./src/input.css -o ./main/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "landing_page"
+  },
+  "author": "MrNdee",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
